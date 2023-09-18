@@ -1,5 +1,5 @@
 function App() {
-  return <div className="app"></div>;
+  return <div className="app">tika</div>;
 }
 
 export default App;
