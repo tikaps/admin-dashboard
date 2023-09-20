@@ -125,41 +125,55 @@ const Sidebar = () => {
               selected={selected}
               setSelected={selected}
             />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Data
+            </Typography>
             <Item
               title="Manage Team"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={selected}
-            />{" "}
+            />
             <Item
               title="Contacts Information"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={selected}
-            />{" "}
+            />
             <Item
               title="Invoices Balances"
               to="/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={selected}
-            />{" "}
+            />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Pages
+            </Typography>
             <Item
               title="Profile form"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={selected}
-            />{" "}
+            />
             <Item
               title="Calendar"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={selected}
-            />{" "}
+            />
             <Item
               title="FAQ Page"
               to="/faq"
@@ -167,6 +181,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={selected}
             />
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Charts
+            </Typography>
             <Item
               title="Bar Chart"
               to="/bar"
